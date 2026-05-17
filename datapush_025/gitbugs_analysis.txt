@@ -1,0 +1,1749 @@
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\cassandra\cassandra_bugs-combined.csv
+================================================================================
+
+Total Rows: 292
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicate id (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicate id: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 13599387
+  Duplicate id: 13517685
+
+Row 1:
+  Issue id: 13599384
+  Duplicate id: 13486649
+
+Row 2:
+  Issue id: 13547359
+  Duplicate id: 13547360
+
+TEXT ANALYSIS:
+
+
+Column: Duplicate id
+  Sample: 13517685
+  Sample: 13486649
+  Sample: 13547360
+  Sample: 13427513
+  Sample: 13538565
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\cassandra\cassandra_bugs.csv
+================================================================================
+
+Total Rows: 4612
+Total Columns: 8
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 1199
+  - Created: 0
+  - Resolved: 1199
+  - Description: 116
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: Upgrade to logback 1.2.3 to address CVE-2017-5929
+  Issue id: 13306629
+  Status: Resolved
+  Priority: High
+  Resolution: Duplicate
+  Created: 21/May/20 22:58
+  Resolved: 23/Sep/21 14:02
+  Description: Recent scan results identified the following CVE that requires this upgrade to address
+
+[https://nvd.nist.gov/vuln/detail/CVE-2017-5929]
+
+Row 1:
+  Summary: Upgrade Cassandra Java Driver to 4.6
+  Issue id: 13300235
+  Status: Resolved
+  Priority: Normal
+  Resolution: Fixed
+  Created: 22/Apr/20 10:11
+  Resolved: 04/Jun/24 08:20
+  Description: After releasing C* 4.0 I think it would be a good idea to upgrade to the latest Cassandra Java Driver that is being used internally.
+
+Row 2:
+  Summary: provide a configuration option such as endpoint_verification_method
+  Issue id: 13312893
+  Status: Open
+  Priority: Normal
+  Resolution: nan
+  Created: 22/Jun/20 18:57
+  Resolved: nan
+  Description: With cassandra-9220, it's possible to configure endpoint/hostname verification when enabling internode encryption.Â  However, you don't have any control over what endpoint is used for the endpoint ver
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Upgrade to logback 1.2.3 to address CVE-2017-5929
+  Sample: Upgrade Cassandra Java Driver to 4.6
+  Sample: provide a configuration option such as endpoint_verification_method
+  Sample: Update Netty 4.0.44 -> 4.1.50 (fix security/performance issues)
+  Sample: DOC - Primary range repair should be run on every datacenter
+
+Column: Status
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Open
+  Sample: Resolved
+  Sample: Resolved
+
+Column: Priority
+  Sample: High
+  Sample: Normal
+  Sample: Normal
+  Sample: Normal
+  Sample: Normal
+
+Column: Resolution
+  Sample: Duplicate
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+
+Column: Created
+  Sample: 21/May/20 22:58
+  Sample: 22/Apr/20 10:11
+  Sample: 22/Jun/20 18:57
+  Sample: 12/Jun/20 18:15
+  Sample: 13/Apr/20 17:28
+
+Column: Resolved
+  Sample: 23/Sep/21 14:02
+  Sample: 04/Jun/24 08:20
+  Sample: 03/Jun/24 22:22
+  Sample: 16/Feb/24 12:43
+  Sample: 15/Aug/22 08:19
+
+Column: Description
+  Sample: Recent scan results identified the following CVE that requires this upgrade to address
+
+[https://nvd.nist.gov/vuln/detail/CVE-2017-5929]
+  Sample: After releasing C* 4.0 I think it would be a good idea to upgrade to the latest Cassandra Java Driver that is being used internally.
+  Sample: With cassandra-9220, it's possible to configure endpoint/hostname verification when enabling internode encryption.Â  However, you don't have any contr
+  Sample: SeeÂ https://issues.apache.org/jira/browse/CASSANDRA-15868Â for the same issue on 4.0 / trunk.Â Attached is an OWASP dependency report for Netty 4.0.4
+  Sample: In the Cassandra document page: [http://cassandra.apache.org/doc/latest/operating/repair.html], there is an explanation which makes confusion on users
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['Resolved' 'Open' 'Triage Needed' 'Review In Progress' 'In Progress'
+ 'Patch Available' 'Changes Suggested' 'Awaiting Feedback'
+ 'Ready to Commit' 'Needs Committer']
+
+Column: Priority
+['High' 'Normal' 'Low' 'Urgent']
+
+Column: Resolution
+['Duplicate' 'Fixed' nan "Won't Fix" 'Resolved' 'Not A Problem'
+ 'Auto Closed' 'Later' 'Cannot Reproduce' 'Invalid' 'Information Provided'
+ 'Not A Bug' 'Works for Me' 'Abandoned' 'Done' "Won't Do" 'Implemented'
+ 'Workaround' 'Incomplete']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\firefox\Firefox_bugs-combined.csv
+================================================================================
+
+Total Rows: 6254
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicates (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicates: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 1606532
+  Duplicates: 1598175.0
+
+Row 1:
+  Issue id: 1606814
+  Duplicates: 1605940.0
+
+Row 2:
+  Issue id: 1607086
+  Duplicates: 1607780
+
+TEXT ANALYSIS:
+
+
+Column: Duplicates
+  Sample: 1598175.0
+  Sample: 1605940.0
+  Sample: 1607780
+  Sample: 1608072
+  Sample: 1610812
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\firefox\Firefox_bugs.csv
+================================================================================
+
+Total Rows: 24824
+Total Columns: 8
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 4209
+  - Created: 0
+  - Resolved: 0
+  - Description: 597
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: Address bar doesn't elide origins correctly
+  Issue id: 1606532
+  Status: RESOLVED
+  Priority: --
+  Resolution: DUPLICATE
+  Created: 2020-01-01 05:10:54+00:00
+  Resolved: 2023-06-06 00:44:25+00:00
+  Description: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+(1) Visit https://long-extended-subdomain-name-containing-many-letters-and-dashes.badss
+
+Row 1:
+  Summary: "TypeError: info.PDFFormatVersion is undefined" when PDF header is invalid
+  Issue id: 1606566
+  Status: VERIFIED
+  Priority: --
+  Resolution: FIXED
+  Created: 2020-01-01 18:26:12+00:00
+  Resolved: 2020-02-06 10:01:56+00:00
+  Description: When the PDF version cannot be extracted from a PDF file, the PDF can still be displayed properly, but the console contains the following error:
+
+> TypeError: info.PDFFormatVersion is undefined
+
+As a 
+
+Row 2:
+  Summary: no suggestions while typing in urlbar
+  Issue id: 1606572
+  Status: RESOLVED
+  Priority: --
+  Resolution: WORKSFORME
+  Created: 2020-01-01 22:21:53+00:00
+  Resolved: 2020-01-14 13:08:25+00:00
+  Description: User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0
+
+Steps to reproduce:
+
+typed something in urlbar
+
+
+Actual results:
+
+no suggestions displayed. Even search engines not sh
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Address bar doesn't elide origins correctly
+  Sample: "TypeError: info.PDFFormatVersion is undefined" when PDF header is invalid
+  Sample: no suggestions while typing in urlbar
+  Sample: File association Remote Code Execution via command line parameter injection in Firefox
+  Sample: login button on faq page is not working
+
+Column: Status
+  Sample: RESOLVED
+  Sample: VERIFIED
+  Sample: RESOLVED
+  Sample: RESOLVED
+  Sample: RESOLVED
+
+Column: Priority
+  Sample: --
+  Sample: --
+  Sample: --
+  Sample: --
+  Sample: --
+
+Column: Resolution
+  Sample: DUPLICATE
+  Sample: FIXED
+  Sample: WORKSFORME
+  Sample: FIXED
+  Sample: INCOMPLETE
+
+Column: Created
+  Sample: 2020-01-01 05:10:54+00:00
+  Sample: 2020-01-01 18:26:12+00:00
+  Sample: 2020-01-01 22:21:53+00:00
+  Sample: 2020-01-02 07:54:43+00:00
+  Sample: 2020-01-02 10:11:03+00:00
+
+Column: Resolved
+  Sample: 2023-06-06 00:44:25+00:00
+  Sample: 2020-02-06 10:01:56+00:00
+  Sample: 2020-01-14 13:08:25+00:00
+  Sample: 2024-05-30 17:06:02+00:00
+  Sample: 2023-07-30 20:18:55+00:00
+
+Column: Description
+  Sample: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+(1) Visit https://long-extended-subdo
+  Sample: When the PDF version cannot be extracted from a PDF file, the PDF can still be displayed properly, but the console contains the following error:
+
+> Ty
+  Sample: User Agent: Mozilla/5.0 (X11; Linux x86_64; rv:73.0) Gecko/20100101 Firefox/73.0
+
+Steps to reproduce:
+
+typed something in urlbar
+
+
+Actual results:
+
+no
+  Sample: Tested on Microsoft Windows 10 Enterprise version 10.0.17763 Build 17763
+
+Using Firefox version 71.0 (32-bit)
+
+Steps to reproduce (local only):
+
+* Set
+  Sample: User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+Firefox for Android
+
+Ste
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['RESOLVED' 'VERIFIED' 'NEW' 'UNCONFIRMED' 'REOPENED' 'ASSIGNED']
+
+Column: Priority
+['--' 'P3' 'P5' 'P2' 'P1' 'P4']
+
+Column: Resolution
+['DUPLICATE' 'FIXED' 'WORKSFORME' 'INCOMPLETE' nan 'MOVED' 'INVALID'
+ 'WONTFIX' 'INACTIVE']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\hadoop\hadoop_bugs-combined.csv
+================================================================================
+
+Total Rows: 126
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicate id (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicate id: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 13478269
+  Duplicate id: 13478452
+
+Row 1:
+  Issue id: 13420488
+  Duplicate id: 13420194
+
+Row 2:
+  Issue id: 13314197
+  Duplicate id: 13313687
+
+TEXT ANALYSIS:
+
+
+Column: Duplicate id
+  Sample: 13478452
+  Sample: 13420194
+  Sample: 13313687
+  Sample: 13286152
+  Sample: 13287181
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\hadoop\hadoop_bugs.csv
+================================================================================
+
+Total Rows: 2503
+Total Columns: 9
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Affects Version/s (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 770
+  - Created: 0
+  - Resolved: 770
+  - Affects Version/s: 741
+  - Description: 143
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: JAR in conflict with timestamp check causes AM errors
+  Issue id: 13404344
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Duplicate
+  Created: 30/Sep/21 17:20
+  Resolved: 20/Jul/22 20:51
+  Affects Version/s: 2.9.2
+  Description: After an init action pulls down a new JAR and the check of a JAR's timestamp is performedÂ  [1]we can sometimes cause an incorrect error if the timestamp does not match. In order to address this you c
+
+Row 1:
+  Summary: Fix Hadoop build on Debian 10
+  Issue id: 13400058
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 08/Sep/21 17:46
+  Resolved: 18/Sep/21 18:52
+  Affects Version/s: 3.4.0
+  Description: We're using *Debian testing* as one of the package sources to get the latest packages. It seems to be broken at the moment. The CI fails to create the build environment for the Debian 10 platform -
+
+
+Row 2:
+  Summary: Filter deps with release labels
+  Issue id: 13401369
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 15/Sep/21 11:42
+  Resolved: 16/Sep/21 16:19
+  Affects Version/s: 3.4.0
+  Description: We need to add the ability to filter the dependencies listed in packages.json file based on the specified release label. This is helpful for maintaining dependencies across different releases for a pl
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: JAR in conflict with timestamp check causes AM errors
+  Sample: Fix Hadoop build on Debian 10
+  Sample: Filter deps with release labels
+  Sample: ABFS AbfsDelegationTokenManager to generate canonicalServiceName if DT plugin doesn't
+  Sample: BuiltInGzipCompressor header and trailer should not be static variables
+
+Column: Status
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Open
+  Sample: Resolved
+
+Column: Priority
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Critical
+  Sample: Critical
+
+Column: Resolution
+  Sample: Duplicate
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+
+Column: Created
+  Sample: 30/Sep/21 17:20
+  Sample: 08/Sep/21 17:46
+  Sample: 15/Sep/21 11:42
+  Sample: 15/Sep/21 12:43
+  Sample: 28/Aug/21 06:00
+
+Column: Resolved
+  Sample: 20/Jul/22 20:51
+  Sample: 18/Sep/21 18:52
+  Sample: 16/Sep/21 16:19
+  Sample: 09/Sep/21 04:25
+  Sample: 10/Sep/21 23:03
+
+Column: Affects Version/s
+  Sample: 2.9.2
+  Sample: 3.4.0
+  Sample: 3.4.0
+  Sample: 3.3.1
+  Sample: 3.4.0
+
+Column: Description
+  Sample: After an init action pulls down a new JAR and the check of a JAR's timestamp is performedÂ  [1]we can sometimes cause an incorrect error if the timest
+  Sample: We're using *Debian testing* as one of the package sources to get the latest packages. It seems to be broken at the moment. The CI fails to create the
+  Sample: We need to add the ability to filter the dependencies listed in packages.json file based on the specified release label. This is helpful for maintaini
+  Sample: Currently in {{AbfsDelegationTokenManager}}, any {{CustomDelegationTokenManager}} only provides a canonical service name if it
+implements {{BoundDTEx
+  Sample: In the newly added BuiltInGzipCompressor, we should not let header and trailer as static variables as they are for different instances.
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['Resolved' 'Open' 'In Progress' 'Reopened' 'Patch Available']
+
+Column: Priority
+['Blocker' 'Critical' 'Major' 'Minor' 'Trivial']
+
+Column: Resolution
+['Duplicate' 'Fixed' nan "Won't Fix" 'Cannot Reproduce' 'Done' "Won't Do"
+ 'Later' 'Works for Me' 'Not A Problem' 'Invalid' 'Implemented'
+ 'Not A Bug' 'Abandoned' 'Workaround' 'Pending Closed' 'Resolved'
+ 'Information Provided']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\hbase\hbase_bugs-combined.csv
+================================================================================
+
+Total Rows: 107
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicate id (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicate id: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 13568947
+  Duplicate id: 13600492, 13575709
+
+Row 1:
+  Issue id: 13320811
+  Duplicate id: 13342375
+
+Row 2:
+  Issue id: 13380042
+  Duplicate id: 13362288
+
+TEXT ANALYSIS:
+
+
+Column: Duplicate id
+  Sample: 13600492, 13575709
+  Sample: 13342375
+  Sample: 13362288
+  Sample: 13361437
+  Sample: 13313031
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\hbase\hbase_bugs.csv
+================================================================================
+
+Total Rows: 5403
+Total Columns: 9
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Affects Version/s (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 1248
+  - Created: 0
+  - Resolved: 1248
+  - Affects Version/s: 3448
+  - Description: 817
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: shaded mapreduce and shaded byo-hadoop client artifacts contains no classes
+  Issue id: 13434743
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 20/Mar/22 14:07
+  Resolved: 30/Mar/22 22:09
+  Affects Version/s: 2.5.0
+  Description: After fixing the logging problem in HBASE-26870, we could see the actual error.
+
+{noformat}
+/home/jenkins/jenkins-home/workspace/ase_Nightly_HBASE-26870-branch-2/hadoop-3/bin/hadoop --config /home/
+
+Row 1:
+  Summary: Netty "leak detected" and OutOfDirectMemoryError due to direct memory buffering with SASL implementation
+  Issue id: 13424759
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 25/Jan/22 18:36
+  Resolved: 07/Jul/22 08:31
+  Affects Version/s: 2.4.6
+  Description: Under constant data ingestion, using default Netty based RpcServer and RpcClient implementation results in OutOfDirectMemoryError, supposedly caused by leaks detected by Netty's LeakDetector.
+{code:j
+
+Row 2:
+  Summary: Backport the log4j2 changes to branch-2
+  Issue id: 13432116
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 05/Mar/22 01:42
+  Resolved: 11/Mar/22 19:46
+  Affects Version/s: nan
+  Description: One thing is that, we'd better make sure that users can still use the old log4j.properties for logging.
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: shaded mapreduce and shaded byo-hadoop client artifacts contains no classes
+  Sample: Netty "leak detected" and OutOfDirectMemoryError due to direct memory buffering with SASL implementation
+  Sample: Backport the log4j2 changes to branch-2
+  Sample: Missing opentelemetry agent in hadoop-two-compat.xml
+  Sample: The way we bypass broken track file is not enough in StoreFileListFile
+
+Column: Status
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+
+Column: Priority
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Critical
+
+Column: Resolution
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+
+Column: Created
+  Sample: 20/Mar/22 14:07
+  Sample: 25/Jan/22 18:36
+  Sample: 05/Mar/22 01:42
+  Sample: 05/Mar/22 13:40
+  Sample: 22/Jan/22 15:23
+
+Column: Resolved
+  Sample: 30/Mar/22 22:09
+  Sample: 07/Jul/22 08:31
+  Sample: 11/Mar/22 19:46
+  Sample: 10/Mar/22 20:06
+  Sample: 25/Jan/22 07:22
+
+Column: Affects Version/s
+  Sample: 2.5.0
+  Sample: 2.4.6
+  Sample: 2.5.0
+  Sample: 1.7.1
+  Sample: 1.3.5
+
+Column: Description
+  Sample: After fixing the logging problem in HBASE-26870, we could see the actual error.
+
+{noformat}
+/home/jenkins/jenkins-home/workspace/ase_Nightly_HBASE-
+  Sample: Under constant data ingestion, using default Netty based RpcServer and RpcClient implementation results in OutOfDirectMemoryError, supposedly caused b
+  Sample: One thing is that, we'd better make sure that users can still use the old log4j.properties for logging.
+  Sample: We do not have hadoop-two-compat.xml on master, this is probably why we missed this file when backporting to branch-2.
+  Sample: When implementing HBASE-26690, I found that a pb message can be parsed with partial bytes, if we stop at some special point.
+
+So we can not rely on 
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['Resolved' 'Open' 'Reopened' 'In Progress' 'Patch Available' 'Closed']
+
+Column: Priority
+['Blocker' 'Critical' 'Major' 'Minor' 'Trivial']
+
+Column: Resolution
+['Fixed' "Won't Fix" 'Duplicate' nan 'Cannot Reproduce' 'Invalid'
+ 'Not A Problem' 'Works for Me' 'Implemented' "Won't Do" 'Done'
+ 'Not A Bug' 'Information Provided' 'Incomplete' 'Later' 'Abandoned'
+ 'Workaround' 'Resolved' 'Feedback Received' 'Delivered']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\mozillacore\Core_bugs-combined.csv
+================================================================================
+
+Total Rows: 17899
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicates (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicates: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 1606512
+  Duplicates: 1617668, 1617922
+
+Row 1:
+  Issue id: 1606540
+  Duplicates: 1672504, 1648947.0
+
+Row 2:
+  Issue id: 1606549
+  Duplicates: 1596989, 1611341, 1620454, 1673126
+
+TEXT ANALYSIS:
+
+
+Column: Duplicates
+  Sample: 1617668, 1617922
+  Sample: 1672504, 1648947.0
+  Sample: 1596989, 1611341, 1620454, 1673126
+  Sample: 1453207.0
+  Sample: 1784753.0
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\mozillacore\Core_bugs.csv
+================================================================================
+
+Total Rows: 85673
+Total Columns: 8
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 17802
+  - Created: 0
+  - Resolved: 0
+  - Description: 2913
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: [macos] Save to PDF feature defaults filename to untitled.pdf instead of the title of the webpage.
+  Issue id: 1606512
+  Status: VERIFIED
+  Priority: P3
+  Resolution: FIXED
+  Created: 2020-01-01 00:09:13+00:00
+  Resolved: 2020-05-21 09:15:39+00:00
+  Description: Steps to reproduce: 
+
+1. navigate to google.com or any webpage 
+
+1. press cmd-p after page loads
+
+2. select save as pdf from the lower left dropdown.
+
+expected results: filename is the title of the pa
+
+Row 1:
+  Summary: Hit MOZ_CRASH(ElementAt(aIndex = 0, aLength = 0)) in [@ CopyUsedTrackSizes]
+  Issue id: 1606516
+  Status: RESOLVED
+  Priority: P2
+  Resolution: FIXED
+  Created: 2020-01-01 00:38:43+00:00
+  Resolved: 2022-06-06 16:29:50+00:00
+  Description: Reduced with m-c:
+BuildID=20191231094349
+SourceStamp=66a1c07a8f48c5129aa3867813bacb6e7ef22d8c
+
+Hit MOZ_CRASH(ElementAt(aIndex = 0, aLength = 0)) at src/xpcom/ds/nsTArray.cpp:29
+
+```c
+#0 MOZ_Crash(char
+
+Row 2:
+  Summary: High frequency layout/style/test/test_mq_prefers_reduced_motion_dynamic.html | Does not matches prefers-reduced-motion: reduced) when the system sets prefers-reduced-motion false
+  Issue id: 1606525
+  Status: RESOLVED
+  Priority: P5
+  Resolution: FIXED
+  Created: 2020-01-01 01:19:11+00:00
+  Resolved: 2020-01-28 13:13:50+00:00
+  Description: **Filed by:** rmaries [at] mozilla.com
+**Parsed log:** https://treeherder.mozilla.org/logviewer.html#?job_id=283101102&repo=autoland
+**Full log:** https://firefox-ci-tc.services.mozilla.com/api/queue/
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: [macos] Save to PDF feature defaults filename to untitled.pdf instead of the title of the webpage.
+  Sample: Hit MOZ_CRASH(ElementAt(aIndex = 0, aLength = 0)) in [@ CopyUsedTrackSizes]
+  Sample: High frequency layout/style/test/test_mq_prefers_reduced_motion_dynamic.html | Does not matches prefers-reduced-motion: reduced) when the system sets 
+  Sample: A window hang blocks entire browser. No matter what is causing the hang, the other browser windows should remain usable
+  Sample: Shadow DOM breaks contextmenu
+
+Column: Status
+  Sample: VERIFIED
+  Sample: RESOLVED
+  Sample: RESOLVED
+  Sample: UNCONFIRMED
+  Sample: UNCONFIRMED
+
+Column: Priority
+  Sample: P3
+  Sample: P2
+  Sample: P5
+  Sample: P3
+  Sample: P5
+
+Column: Resolution
+  Sample: FIXED
+  Sample: FIXED
+  Sample: FIXED
+  Sample: DUPLICATE
+  Sample: INCOMPLETE
+
+Column: Created
+  Sample: 2020-01-01 00:09:13+00:00
+  Sample: 2020-01-01 00:38:43+00:00
+  Sample: 2020-01-01 01:19:11+00:00
+  Sample: 2020-01-01 02:53:38+00:00
+  Sample: 2020-01-01 06:18:04+00:00
+
+Column: Resolved
+  Sample: 2020-05-21 09:15:39+00:00
+  Sample: 2022-06-06 16:29:50+00:00
+  Sample: 2020-01-28 13:13:50+00:00
+  Sample: 2020-06-18 15:32:41+00:00
+  Sample: 2022-10-11 23:47:54+00:00
+
+Column: Description
+  Sample: Steps to reproduce: 
+
+1. navigate to google.com or any webpage 
+
+1. press cmd-p after page loads
+
+2. select save as pdf from the lower left dropdown.
+
+  Sample: Reduced with m-c:
+BuildID=20191231094349
+SourceStamp=66a1c07a8f48c5129aa3867813bacb6e7ef22d8c
+
+Hit MOZ_CRASH(ElementAt(aIndex = 0, aLength = 0)) at sr
+  Sample: **Filed by:** rmaries [at] mozilla.com
+**Parsed log:** https://treeherder.mozilla.org/logviewer.html#?job_id=283101102&repo=autoland
+**Full log:** htt
+  Sample: User Agent: Mozilla/5.0 (Windows NT 6.2; en-US) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30
+
+Steps to reproduce:
+
+Browser ha
+  Sample: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0
+
+Steps to reproduce:
+
+Attempt to use the contextmenu attrib
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['VERIFIED' 'RESOLVED' 'UNCONFIRMED' 'NEW' 'REOPENED' 'ASSIGNED']
+
+Column: Priority
+['P3' 'P2' 'P5' '--' 'P1' 'P4']
+
+Column: Resolution
+['FIXED' nan 'DUPLICATE' 'INCOMPLETE' 'WORKSFORME' 'WONTFIX' 'INVALID'
+ 'INACTIVE' 'MOVED']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\ms_vscode_bugs\vscode_bugs-combined.csv
+================================================================================
+
+Total Rows: 9238
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (float64)
+  - Duplicates (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicates: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 47816.0
+  Duplicates: ['113635']
+
+Row 1:
+  Issue id: 100335.0
+  Duplicates: ['138833', '149170', '107606', '209505', '108772']
+
+Row 2:
+  Issue id: 100338.0
+  Duplicates: ['110111', '110212']
+
+TEXT ANALYSIS:
+
+
+Column: Duplicates
+  Sample: ['113635']
+  Sample: ['138833', '149170', '107606', '209505', '108772']
+  Sample: ['110111', '110212']
+  Sample: ['130535']
+  Sample: ['122805']
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\ms_vscode_bugs\vscode_bugs.csv
+================================================================================
+
+Total Rows: 32829
+Total Columns: 6
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Summary (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+  - Resolution (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Summary: 0
+  - Created: 0
+  - Resolved: 2684
+  - Description: 226
+  - Resolution: 2592
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 223706
+  Summary: Configure unassigned keybindings, command name incorrect
+  Created: 2024-07-25 14:34:59+00:00
+  Resolved: nan
+  Description: - Place cursor in the panel chat
+- Open the accessibility help
+- Click on the icon `Accessibility Help Configure Unassigned Keybindings`
+- The command list does not contain actual command names
+
+
+  Resolution: nan
+
+Row 1:
+  Issue id: 223658
+  Summary: Some suggestions are missing on Windows with pwsh
+  Created: 2024-07-25 13:06:40+00:00
+  Resolved: 2024-07-25 16:14:57+00:00
+  Description: I was trying to verify https://github.com/microsoft/vscode/issues/222233.
+1. Open VS Code window
+2. In pwsh terminal `.\sc`
+3. I expect to see a suggestion for the `.\scripts\` folder
+
+
+
+![Image](http
+  Resolution: completed
+
+Row 2:
+  Issue id: 223641
+  Summary: Cannot split a terminal without a group [object Object]
+  Created: 2024-07-25 12:19:09+00:00
+  Resolved: nan
+  Description: ![image](https://github.com/user-attachments/assets/598c7593-039d-4d0e-a7cb-998cc083b183)
+
+https://github.com/microsoft/vscode/blob/b4eb7c94495e25b5dc968a4d3a723346e27f48a3/src/vs/workbench/contrib/
+  Resolution: nan
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Configure unassigned keybindings, command name incorrect
+  Sample: Some suggestions are missing on Windows with pwsh
+  Sample: Cannot split a terminal without a group [object Object]
+  Sample: SCM - history graph handling of first commit in the repository
+  Sample: SCM - history graph using incorrect color
+
+Column: Created
+  Sample: 2024-07-25 14:34:59+00:00
+  Sample: 2024-07-25 13:06:40+00:00
+  Sample: 2024-07-25 12:19:09+00:00
+  Sample: 2024-07-25 10:44:47+00:00
+  Sample: 2024-07-25 09:43:02+00:00
+
+Column: Resolved
+  Sample: 2024-07-25 16:14:57+00:00
+  Sample: 2024-07-25 11:02:46+00:00
+  Sample: 2024-07-25 09:54:31+00:00
+  Sample: 2024-07-24 17:11:29+00:00
+  Sample: 2024-07-25 07:46:30+00:00
+
+Column: Description
+  Sample: - Place cursor in the panel chat
+- Open the accessibility help
+- Click on the icon `Accessibility Help Configure Unassigned Keybindings`
+- The comm
+  Sample: I was trying to verify https://github.com/microsoft/vscode/issues/222233.
+1. Open VS Code window
+2. In pwsh terminal `.\sc`
+3. I expect to see a sugge
+  Sample: ![image](https://github.com/user-attachments/assets/598c7593-039d-4d0e-a7cb-998cc083b183)
+
+https://github.com/microsoft/vscode/blob/b4eb7c94495e25b5
+  Sample: - [ ] Show the first commit in the repository when it's the only one
+- [ ] Show the contents of the first commit (single select/multi select)
+  Sample: ![Image](https://github.com/user-attachments/assets/1e923983-afbe-46c9-88d4-e7470f8ad9a2)
+
+
+
+Column: Resolution
+  Sample: completed
+  Sample: completed
+  Sample: completed
+  Sample: completed
+  Sample: completed
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Resolution
+[nan 'completed' 'not_planned' 'reopened']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\seamonkey\SeaMonkey_bugs-combined.csv
+================================================================================
+
+Total Rows: 119
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicates (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicates: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 1610468
+  Duplicates: 1611120
+
+Row 1:
+  Issue id: 1611120
+  Duplicates: 1610468.0
+
+Row 2:
+  Issue id: 1613033
+  Duplicates: 1454023.0
+
+TEXT ANALYSIS:
+
+
+Column: Duplicates
+  Sample: 1611120
+  Sample: 1610468.0
+  Sample: 1454023.0
+  Sample: 1378089.0
+  Sample: 1284028, 1648584, 1692784, 1720773, 1771529
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\seamonkey\SeaMonkey_bugs.csv
+================================================================================
+
+Total Rows: 1076
+Total Columns: 8
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 567
+  - Created: 0
+  - Resolved: 0
+  - Description: 2
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: Port |Bug 752376 - Avoid calling scrollbox.ensureElementIsVisible() if the tab strip doesn't overflow to prevent layout flushes| to SeaMonkey
+  Issue id: 1606681
+  Status: RESOLVED
+  Priority: --
+  Resolution: FIXED
+  Created: 2020-01-02 17:14:21+00:00
+  Resolved: 2020-11-01 20:04:54+00:00
+  Description: Port the following bug:
+* Bug 752376 - Avoid calling scrollbox.ensureElementIsVisible() if the tab strip doesn't overflow to prevent layout flushes
+
+Row 1:
+  Summary: SeaMonkey (Mac) update version 2.49.5 made it impossible to edit old webpages!
+  Issue id: 1606979
+  Status: UNCONFIRMED
+  Priority: --
+  Resolution: nan
+  Created: 2020-01-04 02:32:49+00:00
+  Resolved: 2020-01-05 06:00:56+00:00
+  Description: User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+
+Steps to reproduce:
+
+I was editing old webpages, just changing the 
+
+Row 2:
+  Summary: Release Notes: Drop "Features" link to Wiki
+  Issue id: 1607002
+  Status: NEW
+  Priority: P5
+  Resolution: nan
+  Created: 2020-01-04 12:52:00+00:00
+  Resolved: 2020-03-08 07:36:18+00:00
+  Description: AFAIK there has never been useful contents on the SeaMonkey [Features Pages](https://wiki.mozilla.org/SeaMonkey/Features/)  for ages:
+
+At least those for | [2.49.4](https://wiki.mozilla.org/SeaMonkey/
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Port |Bug 752376 - Avoid calling scrollbox.ensureElementIsVisible() if the tab strip doesn't overflow to prevent layout flushes| to SeaMonkey
+  Sample: SeaMonkey (Mac) update version 2.49.5 made it impossible to edit old webpages!
+  Sample: Release Notes: Drop "Features" link to Wiki
+  Sample: Port |Bug 822068 - The content loses focus after calling gBrowser.moveTabBackward/moveTabForward| to SeaMonkey
+  Sample: rss folder management buggy
+
+Column: Status
+  Sample: RESOLVED
+  Sample: UNCONFIRMED
+  Sample: NEW
+  Sample: RESOLVED
+  Sample: UNCONFIRMED
+
+Column: Priority
+  Sample: --
+  Sample: --
+  Sample: P5
+  Sample: --
+  Sample: --
+
+Column: Resolution
+  Sample: FIXED
+  Sample: FIXED
+  Sample: INCOMPLETE
+  Sample: INVALID
+  Sample: INVALID
+
+Column: Created
+  Sample: 2020-01-02 17:14:21+00:00
+  Sample: 2020-01-04 02:32:49+00:00
+  Sample: 2020-01-04 12:52:00+00:00
+  Sample: 2020-01-04 17:10:43+00:00
+  Sample: 2020-01-06 12:04:04+00:00
+
+Column: Resolved
+  Sample: 2020-11-01 20:04:54+00:00
+  Sample: 2020-01-05 06:00:56+00:00
+  Sample: 2020-03-08 07:36:18+00:00
+  Sample: 2020-11-01 20:06:26+00:00
+  Sample: 2020-01-09 07:21:32+00:00
+
+Column: Description
+  Sample: Port the following bug:
+* Bug 752376 - Avoid calling scrollbox.ensureElementIsVisible() if the tab strip doesn't overflow to prevent layout flushes
+  Sample: User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+
+Steps to reproduc
+  Sample: AFAIK there has never been useful contents on the SeaMonkey [Features Pages](https://wiki.mozilla.org/SeaMonkey/Features/)  for ages:
+
+At least those 
+  Sample: Port the following to SeaMonkey:
+* Bug 822068 - The content loses focus after calling gBrowser.moveTabBackward/moveTabForward
+  Sample: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.94 Safari/537.36
+
+Steps to reproduce:
+
+I
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['RESOLVED' 'UNCONFIRMED' 'NEW' 'ASSIGNED' 'VERIFIED' 'REOPENED']
+
+Column: Priority
+['--' 'P5' 'P2' 'P4' 'P3' 'P1']
+
+Column: Resolution
+['FIXED' nan 'INCOMPLETE' 'INVALID' 'DUPLICATE' 'WORKSFORME' 'WONTFIX'
+ 'MOVED']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\spark\spark_bugs-combined.csv
+================================================================================
+
+Total Rows: 496
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicate id (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicate id: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 13597463
+  Duplicate id: 13592488
+
+Row 1:
+  Issue id: 13589694
+  Duplicate id: 13586879
+
+Row 2:
+  Issue id: 13346504
+  Duplicate id: 13346505
+
+TEXT ANALYSIS:
+
+
+Column: Duplicate id
+  Sample: 13592488
+  Sample: 13586879
+  Sample: 13346505
+  Sample: 13518196
+  Sample: 13515882
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\spark\spark_bugs.csv
+================================================================================
+
+Total Rows: 20275
+Total Columns: 9
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Affects Version/s (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 4070
+  - Created: 0
+  - Resolved: 4070
+  - Affects Version/s: 0
+  - Description: 5915
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: Make PySpark working with Python 3.7
+  Issue id: 13525982
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 24/Feb/23 03:04
+  Resolved: 24/Feb/23 05:15
+  Affects Version/s: 3.4.0
+  Description: {code}
++ ./python/run-tests --python-executables=python3
+Running PySpark tests. Output is in /home/ec2-user/spark/python/unit-tests.log
+Will test against the following Python executables: ['python3
+
+Row 1:
+  Summary: DataFrame.drop should handle multi columns properly
+  Issue id: 13524752
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 15/Feb/23 02:46
+  Resolved: 24/Feb/23 00:03
+  Affects Version/s: 3.4.0
+  Description: {code:java}
+from pyspark.sql import Row
+df1 = spark.createDataFrame([(14, "Tom"), (23, "Alice"), (16, "Bob")], ["age", "name"])
+df2 = spark.createDataFrame([Row(height=80, name="Tom"), Row(height=8
+
+Row 2:
+  Summary: Prevent `docker-image-tool.sh` from publishing OCI manifests
+  Issue id: 13524945
+  Status: Resolved
+  Priority: Blocker
+  Resolution: Fixed
+  Created: 16/Feb/23 04:41
+  Resolved: 16/Feb/23 05:53
+  Affects Version/s: 3.2.4
+  Description: https://github.com/docker/buildx/issues/1509
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Make PySpark working with Python 3.7
+  Sample: DataFrame.drop should handle multi columns properly
+  Sample: Prevent `docker-image-tool.sh` from publishing OCI manifests
+  Sample: JsonProtocol should handle null JSON strings
+  Sample: CONV() silently overflows returning wrong results
+
+Column: Status
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+  Sample: Resolved
+  Sample: In Progress
+
+Column: Priority
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Blocker
+  Sample: Critical
+
+Column: Resolution
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+  Sample: Fixed
+
+Column: Created
+  Sample: 24/Feb/23 03:04
+  Sample: 15/Feb/23 02:46
+  Sample: 16/Feb/23 04:41
+  Sample: 11/Feb/23 01:12
+  Sample: 10/Feb/23 19:03
+
+Column: Resolved
+  Sample: 24/Feb/23 05:15
+  Sample: 24/Feb/23 00:03
+  Sample: 16/Feb/23 05:53
+  Sample: 11/Feb/23 05:54
+  Sample: 08/Jun/23 20:24
+
+Column: Affects Version/s
+  Sample: 3.4.0
+  Sample: 3.4.0
+  Sample: 3.2.4
+  Sample: 3.4.0
+  Sample: 3.4.0
+
+Column: Description
+  Sample: {code}
++ ./python/run-tests --python-executables=python3
+Running PySpark tests. Output is in /home/ec2-user/spark/python/unit-tests.log
+Will test a
+  Sample: {code:java}
+from pyspark.sql import Row
+df1 = spark.createDataFrame([(14, "Tom"), (23, "Alice"), (16, "Bob")], ["age", "name"])
+df2 = spark.createD
+  Sample: https://github.com/docker/buildx/issues/1509
+  Sample: *Event Log*
+{code}
+{"Declaring Class":"org.apache.spark.sql.catalyst.expressions.GeneratedClass$GeneratedIteratorForCodegenStage1","Method Name":"co
+  Sample: spark-sql> SELECT CONV(SUBSTRING('0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff', 3), 16, 10);
+
+18446744073709551615
+
+Time ta
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['Resolved' 'In Progress' 'Closed' 'Reopened' 'Open']
+
+Column: Priority
+['Blocker' 'Critical' 'Major' 'Minor' 'Trivial']
+
+Column: Resolution
+['Fixed' nan 'Cannot Reproduce' 'Duplicate' 'Done' 'Resolved' "Won't Do"
+ "Won't Fix" 'Not A Problem' 'Not A Bug' 'Abandoned' 'Invalid'
+ 'Implemented' 'Later' 'Works for Me' 'Workaround' 'Incomplete'
+ 'Information Provided' 'Auto Closed']
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\thunderbird\Thunderbird_bugs-combined.csv
+================================================================================
+
+Total Rows: 4288
+Total Columns: 2
+
+COLUMNS + DATATYPES:
+
+  - Issue id (int64)
+  - Duplicates (object)
+
+NULL VALUES:
+
+  - Issue id: 0
+  - Duplicates: 0
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Issue id: 1606527
+  Duplicates: 1470304.0
+
+Row 1:
+  Issue id: 1606552
+  Duplicates: 1550960.0
+
+Row 2:
+  Issue id: 1606573
+  Duplicates: 1605938
+
+TEXT ANALYSIS:
+
+
+Column: Duplicates
+  Sample: 1470304.0
+  Sample: 1550960.0
+  Sample: 1605938
+  Sample: 1601905.0
+  Sample: 1604629.0
+
+UNIQUE VALUES (small columns only):
+
+
+================================================================================
+FILE: C:\Users\Shruti\jk\Python\Python_GUI\Project_series\6.BRD_Agent\datasets\Gitbugs\gitbugs\thunderbird\Thunderbird_bugs.csv
+================================================================================
+
+Total Rows: 15192
+Total Columns: 8
+
+COLUMNS + DATATYPES:
+
+  - Summary (object)
+  - Issue id (int64)
+  - Status (object)
+  - Priority (object)
+  - Resolution (object)
+  - Created (object)
+  - Resolved (object)
+  - Description (object)
+
+NULL VALUES:
+
+  - Summary: 0
+  - Issue id: 0
+  - Status: 0
+  - Priority: 0
+  - Resolution: 2970
+  - Created: 0
+  - Resolved: 0
+  - Description: 181
+
+SAMPLE ROWS:
+
+
+Row 0:
+  Summary: Command-line flag -options is broken
+  Issue id: 1606527
+  Status: RESOLVED
+  Priority: --
+  Resolution: DUPLICATE
+  Created: 2020-01-01 01:58:36+00:00
+  Resolved: 2020-01-01 14:40:22+00:00
+  Description: [This code](https://searchfox.org/comm-central/rev/0da7f52e68483ce2f03d17fa7e7e3cdfceb193e5/mail/components/MessengerContentHandler.jsm#278) hasn't been updated for preferences-in-a-tab. The URL it tr
+
+Row 1:
+  Summary: Attachment urls are not returned from 'browser.messages.getFull'
+  Issue id: 1606552
+  Status: RESOLVED
+  Priority: --
+  Resolution: DUPLICATE
+  Created: 2020-01-01 15:25:52+00:00
+  Resolved: 2021-03-12 17:57:06+00:00
+  Description: I'm trying to use the `browser.messages.getFull` API to get the urls of attachments so that I can display them.
+
+When I use this API, I'm only getting the body for the main email, not the urls for the
+
+Row 2:
+  Summary: tag colors don't display in list of messages
+  Issue id: 1606557
+  Status: RESOLVED
+  Priority: --
+  Resolution: INCOMPLETE
+  Created: 2020-01-01 16:36:44+00:00
+  Resolved: 2020-06-11 01:20:52+00:00
+  Description: User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+nothing in particular
+
+
+Actual results:
+
+I gave a specific message a colour (red). When 
+
+TEXT ANALYSIS:
+
+
+Column: Summary
+  Sample: Command-line flag -options is broken
+  Sample: Attachment urls are not returned from 'browser.messages.getFull'
+  Sample: tag colors don't display in list of messages
+  Sample: Plug-in isn't working anymore since update
+  Sample: Hyperllinks and Attachments Don't Work
+
+Column: Status
+  Sample: RESOLVED
+  Sample: RESOLVED
+  Sample: RESOLVED
+  Sample: RESOLVED
+  Sample: RESOLVED
+
+Column: Priority
+  Sample: --
+  Sample: --
+  Sample: --
+  Sample: --
+  Sample: --
+
+Column: Resolution
+  Sample: DUPLICATE
+  Sample: DUPLICATE
+  Sample: INCOMPLETE
+  Sample: INVALID
+  Sample: WORKSFORME
+
+Column: Created
+  Sample: 2020-01-01 01:58:36+00:00
+  Sample: 2020-01-01 15:25:52+00:00
+  Sample: 2020-01-01 16:36:44+00:00
+  Sample: 2020-01-01 16:40:13+00:00
+  Sample: 2020-01-01 19:54:28+00:00
+
+Column: Resolved
+  Sample: 2020-01-01 14:40:22+00:00
+  Sample: 2021-03-12 17:57:06+00:00
+  Sample: 2020-06-11 01:20:52+00:00
+  Sample: 2020-01-02 11:59:34+00:00
+  Sample: 2020-01-02 17:27:34+00:00
+
+Column: Description
+  Sample: [This code](https://searchfox.org/comm-central/rev/0da7f52e68483ce2f03d17fa7e7e3cdfceb193e5/mail/components/MessengerContentHandler.jsm#278) hasn't be
+  Sample: I'm trying to use the `browser.messages.getFull` API to get the urls of attachments so that I can display them.
+
+When I use this API, I'm only getting
+  Sample: User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+nothing in particular
+
+
+Actual results
+  Sample: User Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+nothing in particular
+
+
+Actual results
+  Sample: User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0
+
+Steps to reproduce:
+
+Background:
+Windows 10 Build 18362.19
+
+UNIQUE VALUES (small columns only):
+
+
+Column: Status
+['RESOLVED' 'UNCONFIRMED' 'NEW' 'REOPENED' 'VERIFIED' 'ASSIGNED']
+
+Column: Priority
+['--' 'P5' 'P1' 'P2' 'P3' 'P4']
+
+Column: Resolution
+['DUPLICATE' 'INCOMPLETE' 'INVALID' 'WORKSFORME' 'FIXED' nan 'MOVED'
+ 'WONTFIX' 'INACTIVE']
